@@ -2,6 +2,8 @@ const request = require('request');
 const cheerio = require('cheerio');
 const fs = require('fs');
 
+var michelin = require('./michelin');
+
 
 function get_info(url, callback) {
     request(url, function (error, resp, html) {

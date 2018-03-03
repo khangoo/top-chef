@@ -194,3 +194,18 @@ Some things to do:
 ## Licence
 
 [Uncopyrighted](http://zenhabits.net/uncopyright/)
+
+
+##Command line section
+The command lines to call would be
+```
+node progMich.js
+```
+That is to create the list.json file which contains all the starred restaurant on the website Michelin
+
+then
+```
+node lafourchette.js
+```
+twice, the first time to create the file that will contain the IDs of the starred restaurant that are both on Michelin and Lafourchette, then a second time to list all the deals of these restaurants. I added in the comment a small part to be put as comment so the code can work the first time (to create the fourID.json file), then can be put back as normal after executing the code once.
+I had trouble scraping Lafourchette, therefore I did not have the time to go over React. I apologies.
